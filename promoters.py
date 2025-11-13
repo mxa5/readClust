@@ -1,7 +1,7 @@
 import gffutils
 import pandas as pd
 
-# Replace this with the path to your gene annotation GTF file.
+
 gff_file = "homo_sapiens.GRCh38.Regulatory_Build.regulatory_features.20240230.gff"
 
 db = gffutils.create_db(
